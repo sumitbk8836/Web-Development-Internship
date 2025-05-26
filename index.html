@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Sumit Bk </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to My Internship Project</h1>
+            <p>This is a responsive website built with HTML5 and CSS, featuring Flexbox/Grid layouts and media queries for optimal viewing on all devices.</p>
+            <a href="contact.html" class="cta-button">Contact Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Sumit bk &copy; 2023 All rights reserved.</p>
+                <div class="social-links">
+                    <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a href="https://github.com/sumitbk8836"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sumit-bk-8a5910236"><i class="fab fa-linkedin-in"></i></a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
